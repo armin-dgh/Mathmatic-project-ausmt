@@ -1,61 +1,64 @@
-# Matrix Solver Qt App
 
-A GUI-based matrix calculator built with Python and PyQt5 that allows users to perform various matrix operations such as:
+# 🧮 Matrix Solver
 
-- Determinant Calculation (using Gauss method)
+A simple PyQt5-based desktop application for solving matrix problems such as:
+
+- Gaussian Elimination
 - Matrix Inversion
-- Solving Linear Systems using Gauss or Gauss-Jordan elimination
-- Analyzing the system's solution (unique, infinite, or no solution)
+- Determinant Calculation
+- Solving Systems of Linear Equations
 
-## Features
+## 🖥️ Features
 
-- 🧮 Intuitive matrix input through a user-friendly GUI  
-- 📐 Supports square and augmented matrices  
-- 🔄 Performs operations step-by-step using matrix transformation techniques  
-- 📊 Displays detailed results in formatted dialogs  
-- 🚫 Handles edge cases such as singular matrices or inconsistent systems  
+- Solve linear systems using **Gaussian Elimination**
+- Calculate **matrix determinant**
+- Compute the **inverse of a matrix**
+- Select between **Gauss** and **Gauss-Jordan** methods
+- Simple and clean graphical interface (GUI)
+- Useful help and documentation sections
+- Dark mode style (custom QSS)
 
-## Technologies Used
+## 📸 Screenshot
 
-- Python 3
-- PyQt5
-- NumPy
+![Screenshot](images/screenshot.png) <!-- Add your screenshot here -->
 
-## How to Run
+## 🧠 How It Works
 
-1. Clone this repository or download the code.
-2. Install dependencies:
+- For solving systems of equations: input an `n x (n+1)` matrix
+- For determinant and inverse: input a square `n x n` matrix
+- The selected method (Gauss or Gauss-Jordan) is applied to perform the calculations
 
-```bash
-pip install PyQt5 numpy
-```
+## 📂 Installation
 
-3. Run the main file:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/armin-dgh/matrix-solver.git
+   cd matrix-solver
+   ```
 
-```bash
-python matrix.py
-```
+2. Install the required libraries:
+   ```bash
+   pip install PyQt5 numpy
+   ```
 
-## Screenshots
+3. Run the application:
+   ```bash
+   python main.py
+   ```
 
-You can add screenshots by placing image files in your project directory and using this markdown syntax:
+## 📄 Documentation
 
-```markdown
-![Screenshot Description](images/screenshot1.png)
-```
+You can find useful notes inside the application under the **Help** and **Documentation** menus. It explains:
 
-For example, create a folder named `images` in your project root, put your screenshots there, and reference them like:
+- How to format your matrix input
+- How Gaussian Elimination works
+- Limitations and requirements
 
-```markdown
-![Main Window](images/main_window.png)
-```
+## 👤 Author
 
-## Future Improvements
+Developed by **Armin Dehghan**  
+[🔗 GitHub Profile](https://github.com/armin-dgh)
 
-- Add support for complex numbers
-- Visualize transformation matrices
-- Export results to LaTeX or CSV
+## 📜 License
 
-## License
-
-This project is open-source and free to use under the MIT License.
+This project is licensed under the MIT License.
