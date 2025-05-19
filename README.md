@@ -20,7 +20,8 @@ A simple PyQt5-based desktop application for solving matrix problems such as:
 
 ## 📸 Screenshot
 
-![Screenshot](images/screenshot.png) <!-- Add your screenshot here -->
+![Screenshot](images/solve-prob.png) <!-- Add your screenshot here -->
+![Screenshot](images/Det.png) <!-- Add your screenshot here -->
 
 ## 🧠 How It Works
 
@@ -32,12 +33,14 @@ A simple PyQt5-based desktop application for solving matrix problems such as:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/armin-dgh/matrix-solver.git
-   cd matrix-solver
+   git clone https://github.com/armin-dgh/Mathmatic-project-ausmt
+   cd Mathmatic-project-ausmt
    ```
 
 2. Install the required libraries:
    ```bash
+   python -m venv qt-venv
+   qt-venv\Scripts\activate
    pip install PyQt5 numpy
    ```
 
