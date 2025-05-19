@@ -1,0 +1,59 @@
+ QWidget {
+            font-family: "Segoe UI", Arial;
+            font-size: 14px;
+            background-color: #f8f9fa;
+        }
+
+        QPushButton {
+            background-color: #007bff;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+        }
+
+        QPushButton:hover {
+            background-color: #0056b3;
+        }
+
+        QPushButton:pressed {
+            background-color: #004494;
+        }
+
+        QSpinBox, QComboBox {
+            background-color: white;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            padding: 4px;
+            min-width: 100px;
+        }
+
+        QSpinBox:hover, QComboBox:hover {
+            border: 1px solid #80bdff;
+        }
+
+        QTableWidget {
+            gridline-color: #dee2e6;
+            selection-background-color: #cce5ff;
+            background-color: white;
+            alternate-background-color: #f2f2f2;
+        }
+
+        QHeaderView::section {
+            background-color: #e9ecef;
+            padding: 6px;
+            border: 1px solid #dee2e6;
+            font-weight: bold;
+        }
+
+        QLineEdit {
+            padding: 6px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+        }
+
+        QLineEdit:focus {
+            border: 1px solid #80bdff;
+            background-color: #ffffff;
+        }
+
